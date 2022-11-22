@@ -71,6 +71,32 @@ System.out.println(s);
     }
 
 
+**replaceFirst()**
+
+Метод возвращает новую строку с первым совпадением регулярного выражения.
+
+    public static void main(String[] args) {
+
+        String text = "one two three one two";
+        String subtext = text.replaceFirst("two", "five");
+        
+    }
+
+**replaceAll()**
+
+Метод возвращает новую строку со всеми совпадениями регулярного выражения.
+
+
+    public static void main(String[] args) {
+
+        String text = "one two three one two";
+        String subtext = text.replaceAll("two", "five");
+
+
+    }
+
+
+
 **Matcher**
 
 
